@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+        <TextView
+            android:id="@+id/information_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/label_information_title"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/developer_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/label_developer_name"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="@+id/information_title"
+            app:layout_constraintTop_toBottomOf="@+id/information_title" />
+
+        <TextView
+            android:id="@+id/mobile_new_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/label_mobile_new"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="@+id/developer_name_text"
+            app:layout_constraintTop_toBottomOf="@+id/developer_name_text" />
+
+        <TextView
+            android:id="@+id/mobile_old_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/label_mobile_old"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="@+id/mobile_new_info"
+            app:layout_constraintTop_toBottomOf="@+id/mobile_new_info" />
+
+        <TextView
+            android:id="@+id/java_version_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/label_java_version"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="@+id/mobile_old_info"
+            app:layout_constraintTop_toBottomOf="@+id/mobile_old_info" />
+
+        <Button
+            android:id="@+id/button_back_information"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="@string/button_back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

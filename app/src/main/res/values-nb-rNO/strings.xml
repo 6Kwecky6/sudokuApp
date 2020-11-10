@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generic strings-->
+    <string name="app_name">Sudoku</string>
+    <string name="button_cancel">Avbryt</string>
+    <string name="button_save">Lagre</string>
+    <string name="button_back">Tilbake</string>
+    <!--action bar-->
+    <string name="action_toggle_creator_mode">Designer modus</string>
+    <string name="action_toggle_player_mode">Spiller modus</string>
+    <!--Main menu strings-->
+    <string name="label_home_title">Velkommen til denne sudoku applikasjonen!</string>
+    <string name="button_play_existing">Løs et eksisterende brett</string>
+    <string name="button_create_board">Lag nytt brett</string>
+    <string name="button_settings">Innstillinger</string>
+    <string name="button_help">Hjelp</string>
+    <string name="button_info">Informasjon</string>
+
+    <!--Board choice fragment strings-->
+    <string name="label_choose_board">Velg ett brett fra listen:</string>
+    <string name="button_board_easy">Lett</string>
+    <string name="button_board_medium">Medium</string>
+    <string name="button_board_hard">Vanskelig</string>
+
+    <!--Settings strings-->
+    <string name="header_settings">Instillinger:</string>
+    <string name="listPreference_language_selection">Språk valg</string>
+
+    <!--Sudoku game-->
+    <string name="toast_no_selected_cell">Ingen celle er valgt</string>
+
+    <!-- Victory fragment -->
+    <string name="label_victory">Gratulerer, du har vunnet!</string>
+    <string name="label_save_board">Vil du lagre brettet?</string>
+    <string name="button_quit">Avslutt brett</string>
+    <!-- Save fragment -->
+    <string name="label_select_difficulty">Vennligst velg vanskelighetsgrad</string>
+    <string name="toast_no_selected_difficulty">Ingen vannskelighetsgrad valgt</string>
+    <string name="toast_failed_to_save_board">Klarte ikke å lagre brettet</string>
+    <!-- Help fragment -->
+    <string name="label_help_title_how_to">Hvordan spille sudoku:</string>
+    <string name="label_help_title_creator_mode">Lage et nytt brett:</string>
+    <string name="label_help_text_page_1">Sudoku er et spill som typisk er spilt i et rutemønster på 9x9 ruter, som igjen er delt opp i flere 3x3 ruter. Målet er å fylle allerutene med nummer melleom 1\-9 uten å gjenta tallet horisontalt,vertikalt eller inni 3x3 ruten.</string>
+    <string name="label_help_text_page_2">For å legge inn et svar i en rute, trykk på ruten og velg et tall fra en av de nummerede knappene på bunnen. Du kan ikke endre et tall som er forrhåndtsfyllt. Velg det samme tallet igjen dersom du liv slette tallet</string>
+    <string name="label_help_text_page_3">I tilfelle du er usikker på hva du skal velge, kan du holde inne på en rute for å komme inn i tenke modus. dette lar deg velge hvike tall som passer inn i den valgte ruten for å letter kunne dedusere svaret.</string>
+    <string name="label_help_text_page_4">Ved å trykke på "lag nytt brett", så kan du lage ditt eget sudoku brett. Ved å velge en rute, kan du lage "hintene" som skal bli lagret for å spilles senere. Du kan ikke vinne spillet mens du er i "designer modus"</string>
+    <string name="label_help_text_page_5">For å lagre et brett, må du spille ferdig brettet i "spiller modus". Dersom du vil bytte mellom "designer modus" og "spiller modus", trykk på "Designer/spiller modus" øverst på skjermen. Når  du har spilt ferdig brettet i "spiller modus" får du muligheten til å velge mellom å lagre brettet, gå tilbake til det eller avslutte. Lagrede brett kan spilles igjen fra "spill eksisterende brett"</string>
+    <string name="image_description_main_board">Dette er et bilde av sudoku skjermen inkludert en rute som er valgt og noen ruter som har blitt svart. To av rutene er feil.</string>
+    <string name="image_description_think_mode">Dette er et bilde av sudoku skjermen fra forrige side, men nå er spilleren i "tenke modus". 2,6 og 7 er valgt.</string>
+    <string name="image_description_creator_mode">Dette er et bilde av "designer modus" 3 og 5 har blitt lagt til.</string>
+    <string name="image_description_player_mode">Dette er et bilde av at "spiller modus" når spilleren lager nytt brett. 6 og 4 har blitt lagt til for å vise forskjellen mellom modusene.</string>
+    <string name="label_page_number">Side %1$d/%2$d</string>
+    <!-- Information fragment -->
+    <string name="label_information_title">Informasjon om utvikling:</string>
+    <string name="label_mobile_new">Testet på fysisk mobil:\nGoogle Pixel XL API nivå 30</string>
+    <string name="label_mobile_old">Testet på fysisk mobil:\nSony Xperia Z3 API nivå 23</string>
+    <string name="label_java_version">Utviklet med Java versjon: 8</string>
+    <string name="label_developer_name">Utviklet av: Kevin Andre Helgeland</string>
+
+</resources>

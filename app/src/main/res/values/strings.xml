@@ -1,0 +1,66 @@
+<resources>
+    <!--Generic strings-->
+    <string name="app_name">Sudoku</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_save">Save</string>
+    <string name="button_back">Back</string>
+    <!--action bar-->
+    <string name="action_toggle_creator_mode">Creator mode</string>
+    <string name="action_toggle_player_mode">Player mode</string>
+    <string name="action_help" translatable="false">\?</string>
+    <!--Main menu strings-->
+    <string name="label_home_title">Welcome to the sudoku app!</string>
+    <string name="button_play_existing">Play existing board</string>
+    <string name="button_create_board">Create new board</string>
+    <string name="button_settings">Settings</string>
+    <string name="button_help">Help</string>
+    <string name="button_info">Information</string>
+    <!--Board choice fragment strings-->
+    <string name="label_choose_board">Choose a board from below:</string>
+    <string name="button_board_easy">Easy</string>
+    <string name="button_board_medium">Medium</string>
+    <string name="button_board_hard">Hard</string>
+    <!--Settings strings-->
+    <string name="header_settings">Settings:</string>
+    <string name="listPreference_language_selection">Language selection</string>
+    <!--Sudoku game-->
+    <string name="label_1" translatable="false">1</string>
+    <string name="label_2" translatable="false">2</string>
+    <string name="label_3" translatable="false">3</string>
+    <string name="label_4" translatable="false">4</string>
+    <string name="label_5" translatable="false">5</string>
+    <string name="label_6" translatable="false">6</string>
+    <string name="label_7" translatable="false">7</string>
+    <string name="label_8" translatable="false">8</string>
+    <string name="label_9" translatable="false">9</string>
+    <string name="toast_no_selected_cell">No cell selected</string>
+    <!-- Victory fragment -->
+    <string name="label_victory">Congratulations, you win!</string>
+    <string name="label_save_board">Do you want save the board?</string>
+    <string name="button_quit">Quit board</string>
+    <!-- Save fragment -->
+    <string name="label_select_difficulty">Please select difficulty</string>
+    <string name="toast_no_selected_difficulty">No difficulty selected</string>
+    <string name="toast_failed_to_save_board">Failed to save board</string>
+    <!-- Help fragment -->
+    <string name="label_help_title_how_to">How to play Sudoku:</string>
+    <string name="label_help_title_creator_mode">Creating a new board:</string>
+    <string name="label_help_text_page_1">Sudoku is a game typically played in a 9x9 grid that has been divided into 9 3x3 grids. The goal is to fill all the grids with a number between 1\-9 without repeating any of the numbers horizontally, vertically og in the same 3x3 grid.</string>
+    <string name="label_help_text_page_2">To put an answer in a tile, tap the cell you want to answer, then press one of the numbered buttons below to select the answer you want to input. You cannot change a number that come pre filled when playing a created board. Select the same number to again to erase if you regret.</string>
+    <string name="label_help_text_page_3">In case you are unsure what the answer is, you can hold the cell to enter thinking mode. This allows you to mark every possible answer you think the cell can hold for easier deduction.</string>
+    <string name="label_help_text_page_4">By pressing the "create new board" button, you can create your own custom board. By selecting a grid, you can create the "hints" that will be saved. You cannot win the board in "creator mode"</string>
+    <string name="label_help_text_page_5">To save the board, you have to complete it in "player mode". To toggle between "creator mode" and "player mode", press the "creator/player mode" button on top of the screen. Once the board is completed you get the option to save it, go back to editing it or quitting the board. Saved boards can be loaded when playing existing boards</string>
+    <string name="image_description_main_board">This is an image of the sudoku screen including a selected cell and some answered cells. Two of the cells are incorrect.</string>
+    <string name="image_description_think_mode">This image is the same as the previous page, but now the player is in thinking mode. 2,6 and 7 is currently selected.</string>
+    <string name="image_description_creator_mode">This is an image of the creator mode. 3 and 5 has been added to the board</string>
+    <string name="image_description_player_mode">This is an image of the player mode when creating a new board. 6 and 4 has been added to display the difference between the two</string>
+    <string name="label_page_number">Page %1$d/%2$d</string>
+    <string name="button_left" translatable="false">&lt;</string>
+    <string name="button_right" translatable="false">&gt;</string>
+    <!-- Information fragment -->
+    <string name="label_information_title">Development information:</string>
+    <string name="label_mobile_new">Tested on physical mobile:\nGoogle Pixel XL API level 30</string>
+    <string name="label_mobile_old">Tested on physical mobile:\nSony Xperia Z3 API level 23</string>
+    <string name="label_java_version">Developed with Java version: 8</string>
+    <string name="label_developer_name">Developed by: Kevin Andre Helgeland</string>
+</resources>

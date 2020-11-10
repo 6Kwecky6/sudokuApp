@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Divider_vertical">
+        <item name="android:layout_width">5dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:background">@color/teal_700</item>
+    </style>
+    <style name="Divider_horizontal">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">5dp</item>
+        <item name="android:background">@color/teal_700</item>
+    </style>
+    <style name="Casual_font">
+        <item name="android:fontFamily">casual</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/purple_500</item>
+    </style>
+    <style name="Default_font">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

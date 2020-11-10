@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".SudokuActivity">
+
+    <GridView
+        android:id="@+id/sudoku_board"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:horizontalSpacing="5dp"
+        android:numColumns="9"
+        android:verticalSpacing="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/keyboard_Layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/keyboard_Layout"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button_1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal_200"
+            android:text="@string/label_1"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_2"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal_200"
+            android:text="@string/label_2"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_3"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal_200"
+            android:text="@string/label_3"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_4"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal_200"
+            android:text="@string/label_4"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_5"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal_200"
+            android:text="@string/label_5"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_6"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal_200"
+            android:text="@string/label_6"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_7"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal_200"
+            android:text="@string/label_7"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_8"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal_200"
+            android:text="@string/label_8"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_9"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/teal_200"
+            android:text="@string/label_9"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <View
+        style="@style/Divider_vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/sudoku_board"
+        app:layout_constraintEnd_toEndOf="@+id/sudoku_board"
+        app:layout_constraintHorizontal_bias="0.67"
+        app:layout_constraintStart_toStartOf="@+id/sudoku_board"
+        app:layout_constraintTop_toTopOf="@+id/sudoku_board" />
+
+    <View
+        style="@style/Divider_vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/sudoku_board"
+        app:layout_constraintEnd_toEndOf="@+id/sudoku_board"
+        app:layout_constraintHorizontal_bias="0.33"
+        app:layout_constraintStart_toStartOf="@+id/sudoku_board"
+        app:layout_constraintTop_toTopOf="@+id/sudoku_board"/>
+
+    <View
+        style="@style/Divider_horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/sudoku_board"
+        app:layout_constraintEnd_toEndOf="@+id/sudoku_board"
+        app:layout_constraintVertical_bias="0.67"
+        app:layout_constraintStart_toStartOf="@+id/sudoku_board"
+        app:layout_constraintTop_toTopOf="@+id/sudoku_board" />
+
+    <View
+        style="@style/Divider_horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/sudoku_board"
+        app:layout_constraintEnd_toEndOf="@+id/sudoku_board"
+        app:layout_constraintVertical_bias="0.33"
+        app:layout_constraintStart_toStartOf="@+id/sudoku_board"
+        app:layout_constraintTop_toTopOf="@+id/sudoku_board"/>
+
+    <FrameLayout
+        android:id="@+id/settings_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/victory_screen"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
