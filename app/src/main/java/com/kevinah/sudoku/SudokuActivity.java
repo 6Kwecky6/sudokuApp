@@ -143,6 +143,12 @@ public class SudokuActivity extends AppCompatActivity {
 
         });
     }
+    public boolean isCreatorMode(){
+        return creator_mode;
+    }
+    public MenuItem getTogglePlayMode(){
+        return togglePlayMode;
+    }
 
     private void initOnItemLongClickListener(){
         sudokuGridView.setOnItemLongClickListener((parent, view, position, id) -> {

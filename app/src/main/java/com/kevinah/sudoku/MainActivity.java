@@ -22,8 +22,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //Setting configurations to work
-        // TODO: change language at runtime
-        // https://proandroiddev.com/change-language-programmatically-at-runtime-on-android-5e6bc15c758
         Configuration newConfiguration=getCustomConfiguration();
         getResources().updateConfiguration(newConfiguration,getResources().getDisplayMetrics());
 
